@@ -3,15 +3,15 @@ package org.example.VendingMachine.Sequencer;
 public class DrinkSequencer {
 
 
-    private static int personId = 20000;
+    private static int drink = 20000;
 
     public static int nextPersonId(){
 
-        return ++personId;
+        return ++drink;
     }
 
     public static void reset(){
 
-        personId = 20000;
+        drink = 20000;
     }
 }
