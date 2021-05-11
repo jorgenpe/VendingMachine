@@ -5,28 +5,35 @@ import org.example.VendingMachine.Sequencer.FoodSequencer;
 public class Food extends Product{
 
     private int foodPrice;
-    private int foodProductNumber;
-
-    public Food(String productInfo, String useProduct) {
-        super(productInfo, useProduct);
-    }
+    private final int  foodProductNumber;
+    private String foodName;
 
 
-   public Food(String productInfo,String productUse, int foodPrice) {
+   public Food(String productInfo,String productUse, int foodPrice, String foodName) {
         super(productInfo, productUse);
         this.foodProductNumber = FoodSequencer.nextFood();
         this.foodPrice = foodPrice;
+        this.foodName = foodName;
     }
 
     @Override
     public int ProductNumber() {
 
-        return 0;
+        return foodProductNumber;
     }
+
 
     @Override
     public int productPrice() {
-        return 0;
+        return foodPrice;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
     }
 
     public int getFoodPrice() {
