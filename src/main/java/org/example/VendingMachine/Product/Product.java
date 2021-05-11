@@ -4,8 +4,12 @@ public abstract class Product {
 
     private String productInfo;
     private String useProduct;
-    private int price;
-    private int productNumber;
+
+    public Product(String productInfo, String useProduct){
+            this.productInfo = productInfo;
+            this.useProduct = useProduct;
+
+        }
 
     public abstract int ProductNumber();
 

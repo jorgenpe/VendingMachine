@@ -2,16 +2,16 @@ package org.example.VendingMachine.Sequencer;
 
 public class FoodSequencer {
 
-    private static int appUserId = 10000;
+    private static int food = 10000;
 
-    public static int nextAppUserId(){
+    public static int nextFood(){
 
-        return ++appUserId;
+        return ++food;
     }
 
     public static void reset(){
 
-        appUserId = 10000;
+        food = 10000;
     }
 
 
