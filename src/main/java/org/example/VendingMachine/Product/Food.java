@@ -12,11 +12,11 @@ public class Food extends Product{
     }
 
 
-   /* public Food(int foodPrice,Product productInfo,Product productInfo) {
-        super();
+   public Food(String productInfo,String productUse, int foodPrice) {
+        super(productInfo, productUse);
         this.foodProductNumber = FoodSequencer.nextFood();
         this.foodPrice = foodPrice;
-    }*/
+    }
 
     @Override
     public int ProductNumber() {

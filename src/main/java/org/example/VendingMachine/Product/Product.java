@@ -5,6 +5,9 @@ public abstract class Product {
     private String productInfo;
     private String useProduct;
 
+    public Product(){
+
+    }
     public Product(String productInfo, String useProduct){
             this.productInfo = productInfo;
             this.useProduct = useProduct;
