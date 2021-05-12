@@ -22,10 +22,12 @@ public class Food extends Product{
         return foodProductNumber;
     }
 
-
+    // Method that adds taxes and return the customer price
     @Override
-    public int productPrice() {
-        return foodPrice;
+    public  int productPrice() {
+
+       int temp = (int)Math.round(foodPrice * 1.12);
+       return temp;
     }
 
     public String getFoodName() {
