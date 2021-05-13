@@ -6,26 +6,35 @@ public enum ProductsVendingMachine {
 
 
 
-    HamSandwich("food",new Food("I'Am a foodProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Ham Sandwich"
+    HamSandwich("food", new Food("I'Am a foodProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Ham Sandwich"
+    ), null, null),
+
+    CheeseSandwich("food", new Food("I'Am a foodProduct and cost 10 kr","Rip of the plastic raping and consume me", 10,"Cheese Sandwich"
+    ), null, null),
+
+    CheeseHamSandwich("food", new Food("I'Am a foodProduct and cost 20 kr","Rip of the plastic raping and consume me", 20,"Cheese Ham Sandwich"
+    ), null, null),
+
+    ColaDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Cola"
+    ),null),
+
+    OrangeDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Orange"
+    ),null),
+
+    AppleDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Apple"
+    ),null),
+
+    ChocolateBar("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chocolate bar"
     )),
-    CheeseSandwich("food",new Food("I'Am a foodProduct and cost 10 kr","Rip of the plastic raping and consume me", 10,"Cheese Sandwich"
+
+    ChewingGum("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chewing gum"
     )),
-    CheeseHamSandwich("food",new Food("I'Am a foodProduct and cost 20 kr","Rip of the plastic raping and consume me", 20,"Cheese Ham Sandwich"
-    )),
-    ColaDrink("drink",new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Cola"
-    )),
-    OrangeDrink("drink",new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Orange"
-    )),
-    AppleDrink("drink",new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Apple"
-    )),
-    ChocolateBar("sweets",new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chocolate bar"
-    )),
-    ChewingGum("sweets",new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chewing gum"
-    )),
-    OrangeSweets("sweets",new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Orange sweets"
+
+    OrangeSweets("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Orange sweets"
     ));
 
-    //private Product product;
+
+
     private Food food;
     private Drink drink;
     private Sweets sweets;
@@ -34,21 +43,15 @@ public enum ProductsVendingMachine {
 
 
 
-     ProductsVendingMachine(String productTyp, Food food){
+     ProductsVendingMachine(String productTyp, Food food, Drink drink, Sweets sweets){
         this.productTyp = productTyp;
         this.food = food;
-
-    }
-
-    ProductsVendingMachine(String productTyp,Drink drink){
-        this.drink= drink;
-
-    }
-
-    ProductsVendingMachine(String productTyp,Sweets sweets){
+        this.drink = drink;
         this.sweets = sweets;
 
+
     }
+
 
     public String productTyp(){
 

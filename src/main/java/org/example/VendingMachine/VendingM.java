@@ -85,7 +85,9 @@ public class VendingM implements VendingMachine{
     @Override
     public String GetDescription(int productNumber) {
 
+
         for(ProductsVendingMachine products: ProductsVendingMachine.values()){
+
 
             if(products.productTyp() == "food" && products.food().ProductNumber() == productNumber){
 
@@ -107,7 +109,11 @@ public class VendingM implements VendingMachine{
     @Override
     public int getBalance() {
 
+        if(currency == null){
+            currency = DepositPool.getInstance();
+        }
         return currency.getDepositPool();
+
     }
 
     @Override
@@ -135,7 +141,8 @@ public class VendingM implements VendingMachine{
 
             }
 
-            ++count;
+            count++;
+
 
         }
 

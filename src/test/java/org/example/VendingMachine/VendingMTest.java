@@ -59,14 +59,33 @@ class VendingMTest {
     @Test
     void getDescription() {
 
+        String result = testVendingM.GetDescription(20001);
+        String expected = "I'Am a drinkProduct and cost 15 kr";
+
+        assertEquals(expected,result);
 
     }
 
     @Test
     void getBalance() {
+
+        int result = testVendingM.getBalance();
+        int expected = 0;
+
+        assertEquals(expected,result);
     }
 
     @Test
     void getProducts() {
+
+        ProductsVendingMachine testV = ProductsVendingMachine.OrangeSweets;
+
+        String[] temp = testVendingM.getProducts();
+        String result = temp[temp.length - 1];
+        String expected = "Name: " + testV.sweets().getSweetsName() + " Product number: " + testV.sweets().ProductNumber();
+
+        assertEquals(expected,result);
+
+
     }
 }
