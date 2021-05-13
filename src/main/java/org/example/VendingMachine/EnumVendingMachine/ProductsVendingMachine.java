@@ -35,9 +35,9 @@ public enum ProductsVendingMachine {
 
 
 
-    private Food food;
-    private Drink drink;
-    private Sweets sweets;
+    private  Food food;
+    private  Drink drink;
+    private  Sweets sweets;
     private String productTyp;
 
 
@@ -49,7 +49,6 @@ public enum ProductsVendingMachine {
         this.drink = drink;
         this.sweets = sweets;
 
-
     }
 
 
@@ -58,7 +57,7 @@ public enum ProductsVendingMachine {
         return productTyp;
     }
 
-    public Food food(){
+    public  Food food(){
          return food;
     }
 

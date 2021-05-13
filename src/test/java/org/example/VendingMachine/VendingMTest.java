@@ -52,8 +52,6 @@ class VendingMTest {
 
         assertEquals(expected,result);
 
-
-
     }
 
     @Test
