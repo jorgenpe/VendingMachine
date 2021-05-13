@@ -36,8 +36,8 @@ class VendingMTest {
     void request() {
 
         testVendingM.addCurrency(20);
-        Product result = testVendingM.request(10002);
-        Product expected = ProductsVendingMachine.CheeseSandwich.food();
+        Product result = testVendingM.request(20001);
+        Product expected = ProductsVendingMachine.ColaDrink.drink();
 
         assertEquals(expected,result);
 
