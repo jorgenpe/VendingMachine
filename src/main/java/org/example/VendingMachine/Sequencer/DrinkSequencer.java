@@ -5,7 +5,7 @@ public class DrinkSequencer {
 
     private static int drink = 20000;
 
-    public static int nextPersonId(){
+    public static int nextDrink(){
 
         return ++drink;
     }

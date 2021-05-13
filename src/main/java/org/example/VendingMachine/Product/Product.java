@@ -28,6 +28,10 @@ public abstract class Product {
         return useProduct;
     }
 
+    public String getProductInfo() {
+        return productInfo;
+    }
+
     public void setProductInfo(String productInfo) {
         this.productInfo = productInfo;
     }
@@ -39,4 +43,6 @@ public abstract class Product {
     public void setUseProduct(String useProduct) {
         this.useProduct = useProduct;
     }
+
+
 }

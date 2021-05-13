@@ -1,6 +1,7 @@
 package org.example.VendingMachine.Product;
 
-import org.example.VendingMachine.Sequencer.FoodSequencer;
+import org.example.VendingMachine.Sequencer.DrinkSequencer;
+
 
 public class Drink extends Product{
 
@@ -11,7 +12,7 @@ public class Drink extends Product{
 
     public Drink(String productInfo,String productUse, int drinkPrice, String drinkName) {
         super(productInfo, productUse);
-        this.drinkProductNumber = FoodSequencer.nextFood();
+        this.drinkProductNumber = DrinkSequencer.nextDrink();
         this.drinkPrice = drinkPrice;
         this.drinkName = drinkName;
     }
@@ -28,5 +29,18 @@ public class Drink extends Product{
 
         int temp = (int)Math.round(drinkPrice * 1.18);
         return temp;
+    }
+
+
+    public void setDrinkPrice(int drinkPrice) {
+        this.drinkPrice = drinkPrice;
+    }
+
+    public String getDrinkName() {
+        return drinkName;
+    }
+
+    public void setDrinkName(String drinkName) {
+        this.drinkName = drinkName;
     }
 }

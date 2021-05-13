@@ -38,11 +38,11 @@ public class Food extends Product{
         this.foodName = foodName;
     }
 
-    public int getFoodPrice() {
-        return foodPrice;
-    }
+
 
     public void setFoodPrice(int foodPrice) {
         this.foodPrice = foodPrice;
     }
+
+
 }

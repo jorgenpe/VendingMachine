@@ -4,8 +4,8 @@ public class SweetsSequencer {
 
     private static int sweets= 30000;
 
-    public static int nextMeetingId(){
-        ;
+    public static int nextSweets(){
+
         return ++sweets;
     }
 
