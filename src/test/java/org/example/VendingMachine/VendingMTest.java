@@ -3,6 +3,9 @@ package org.example.VendingMachine;
 import org.example.VendingMachine.EnumVendingMachine.ProductsVendingMachine;
 import org.example.VendingMachine.Payment.DepositPool;
 import org.example.VendingMachine.Product.Product;
+import org.example.VendingMachine.Sequencer.DrinkSequencer;
+import org.example.VendingMachine.Sequencer.FoodSequencer;
+import org.example.VendingMachine.Sequencer.SweetsSequencer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +17,10 @@ class VendingMTest {
     DepositPool testDeposit;
     @BeforeEach
     void setUp() {
+
+        DrinkSequencer.reset();
+        SweetsSequencer.reset();
+        FoodSequencer.reset();
         testDeposit = DepositPool.getInstance();
         testDeposit.setDepositPool(0);
         testVendingM = new VendingM();
