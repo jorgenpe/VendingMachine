@@ -24,13 +24,13 @@ public enum ProductsVendingMachine {
     AppleDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Apple"
     ),null),
 
-    ChocolateBar("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chocolate bar"
+    ChocolateBar("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 17 kr","Rip of the plastic raping and consume me", 17,"Chocolate bar"
     )),
 
-    ChewingGum("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Chewing gum"
+    ChewingGum("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 20 kr","Rip of the plastic raping and consume me", 20,"Chewing gum"
     )),
 
-    OrangeSweets("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Orange sweets"
+    OrangeSweets("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 27 kr","Rip of the plastic raping and consume me", 27,"Orange sweets"
     ));
 
 
