@@ -1,6 +1,8 @@
 package org.example.VendingMachine.EnumVendingMachine;
 
 import org.example.VendingMachine.Product.*;
+
+// Enum that handles products that are in the vending machine. One internal constructor and four methods that return String, Food, Drink and Sweets.
 public enum ProductsVendingMachine {
 
 
@@ -43,7 +45,7 @@ public enum ProductsVendingMachine {
 
 
 
-     ProductsVendingMachine(String productTyp, Food food, Drink drink, Sweets sweets){
+      ProductsVendingMachine(String productTyp, Food food, Drink drink, Sweets sweets){
         this.productTyp = productTyp;
         this.food = food;
         this.drink = drink;

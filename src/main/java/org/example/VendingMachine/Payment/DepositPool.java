@@ -2,7 +2,7 @@ package org.example.VendingMachine.Payment;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Class implementing a singleton. The DepositPool handles deposit and withdrawals for the vending machine.
 public class DepositPool {
 
     //Singleton starts.

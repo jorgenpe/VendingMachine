@@ -2,6 +2,7 @@ package org.example.VendingMachine;
 
 import org.example.VendingMachine.Product.Product;
 
+// Interface VendingMachine and the methods needed to implement this interface.
 public interface VendingMachine {
 
     void addCurrency(int amount);

@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Test class for DepositPool. Setup before each is implemented and test on the methods of the class is done.
+
 class DepositPoolTest {
 
     private DepositPool testDeposit = DepositPool.getInstance();

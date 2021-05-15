@@ -2,6 +2,8 @@ package org.example.VendingMachine.Product;
 
 import org.example.VendingMachine.Sequencer.DrinkSequencer;
 
+// Class that inherit from product. It has two override methods that implement product number and price.
+// Two set methods that set price and name. Get method that gives name off the product.
 
 public class Drink extends Product{
 

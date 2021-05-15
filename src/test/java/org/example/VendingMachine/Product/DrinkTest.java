@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Test class for Drink. Setup before each is implemented and test on the methods of the class is done.
 class DrinkTest {
 
     Drink testDrink;

@@ -11,6 +11,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// The class that test the implementation of VendingM that implements interface VendingMachine. A before each setup is created.
+// A test on the methods specified in interface VendingMachine is made.
+
 class VendingMTest {
 
     VendingM testVendingM;

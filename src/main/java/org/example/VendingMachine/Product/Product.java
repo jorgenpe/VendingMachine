@@ -1,5 +1,8 @@
 package org.example.VendingMachine.Product;
 
+// Abstract super class that Food, Drink and Sweets inherits from. Has two methods that are abstracts and need to be
+// implemented in classes that inherit from the super class.
+
 public abstract class Product {
 
     private String productInfo;

@@ -5,6 +5,8 @@ import org.example.VendingMachine.Payment.DepositPool;
 
 import org.example.VendingMachine.Product.Product;
 
+// Class that implements interface VendingMachine. All Methods and only them are implemented in accord with interface VendingMachine.
+
 public class VendingM implements VendingMachine{
 
     private DepositPool currency;
