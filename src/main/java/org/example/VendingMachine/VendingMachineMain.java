@@ -35,51 +35,83 @@ public class VendingMachineMain {
 
                 case 2:{
 
-                    productVM.request(ProductsVendingMachine.CheeseSandwich.food().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.CheeseSandwich.food().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
 
                 case 3:{
 
-                    productVM.request(ProductsVendingMachine.CheeseHamSandwich.food().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.CheeseHamSandwich.food().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
 
                 case 4:{
 
-                    productVM.request(ProductsVendingMachine.ColaDrink.drink().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.ColaDrink.drink().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
                 case 5:{
 
-                    productVM.request(ProductsVendingMachine.OrangeDrink.drink().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.OrangeDrink.drink().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
                 case 6:{
 
-                    productVM.request(ProductsVendingMachine.AppleDrink.drink().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.AppleDrink.drink().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
                 case 7:{
 
-                    productVM.request(ProductsVendingMachine.ChocolateBar.sweets().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.ChocolateBar.sweets().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
                 case 8:{
 
-                    productVM.request(ProductsVendingMachine.ChewingGum.sweets().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.ChewingGum.sweets().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
                 case 9:{
 
-                    productVM.request(ProductsVendingMachine.OrangeSweets.sweets().ProductNumber());
+                    product = productVM.request(ProductsVendingMachine.OrangeSweets.sweets().ProductNumber());
+
+                    if(product == null){
+                        System.out.println("No purchase were made. Not enough money in deposit");
+                    }
                 }
                 break;
 
