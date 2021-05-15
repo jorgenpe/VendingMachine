@@ -65,7 +65,7 @@ class VendingMTest {
     void getDescription() {
 
         String result = testVendingM.GetDescription(20001);
-        String expected = "I'Am a drinkProduct and cost 15 kr";
+        String expected = "I'Am a drinkProduct and cost 18 kr";
 
         assertEquals(expected,result);
 

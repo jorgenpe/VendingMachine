@@ -6,31 +6,31 @@ public enum ProductsVendingMachine {
 
 
 
-    HamSandwich("food", new Food("I'Am a foodProduct and cost 15 kr","Rip of the plastic raping and consume me", 15,"Ham Sandwich"
+    HamSandwich("food", new Food("I'Am a foodProduct and cost 17 kr","Rip of the plastic raping and consume me", 15,"Ham Sandwich"
     ), null, null),
 
-    CheeseSandwich("food", new Food("I'Am a foodProduct and cost 10 kr","Rip of the plastic raping and consume me", 10,"Cheese Sandwich"
+    CheeseSandwich("food", new Food("I'Am a foodProduct and cost 11 kr","Rip of the plastic raping and consume me", 10,"Cheese Sandwich"
     ), null, null),
 
-    CheeseHamSandwich("food", new Food("I'Am a foodProduct and cost 20 kr","Rip of the plastic raping and consume me", 20,"Cheese Ham Sandwich"
+    CheeseHamSandwich("food", new Food("I'Am a foodProduct and cost 22 kr","Rip of the plastic raping and consume me", 20,"Cheese Ham Sandwich"
     ), null, null),
 
-    ColaDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Cola"
+    ColaDrink("drink",null, new Drink("I'Am a drinkProduct and cost 18 kr","Open and consume me", 15,"Cola"
     ),null),
 
-    OrangeDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Orange"
+    OrangeDrink("drink",null, new Drink("I'Am a drinkProduct and cost 18 kr","Open and consume me", 15,"Orange"
     ),null),
 
-    AppleDrink("drink",null, new Drink("I'Am a drinkProduct and cost 15 kr","Open and consume me", 15,"Apple"
+    AppleDrink("drink",null, new Drink("I'Am a drinkProduct and cost 18 kr","Open and consume me", 15,"Apple"
     ),null),
 
-    ChocolateBar("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 17 kr","Rip of the plastic raping and consume me", 17,"Chocolate bar"
+    ChocolateBar("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 21 kr","Rip of the plastic raping and consume me", 17,"Chocolate bar"
     )),
 
-    ChewingGum("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 20 kr","Rip of the plastic raping and consume me", 20,"Chewing gum"
+    ChewingGum("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 25 kr","Rip of the plastic raping and consume me", 20,"Chewing gum"
     )),
 
-    OrangeSweets("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 27 kr","Rip of the plastic raping and consume me", 27,"Orange sweets"
+    OrangeSweets("sweets",null, null, new Sweets("I'Am a sweetsProduct and cost 34 kr","Rip of the plastic raping and consume me", 27,"Orange sweets"
     ));
 
 
